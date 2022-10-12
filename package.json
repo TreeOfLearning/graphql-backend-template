@@ -1,0 +1,27 @@
+{
+  "name": "api-test-project",
+  "version": "1.0.0",
+  "description": "API test project using type-graphql, edgedb, and tsyringe",
+  "main": "src/main.ts",
+  "author": "Julian Forrester",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/main.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "apollo-server": "^3.10.3",
+    "class-validator": "^0.13.2",
+    "graphql": "^15.3.0",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.7.0",
+    "type-graphql": "^1.1.1",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "@types/node": "^18.8.3"
+  }
+}
